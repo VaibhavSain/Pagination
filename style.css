@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 40px;
+  gap: 20px;
+}
+.container .heading {
+  margin-left: 8.2rem;
+}
+.container .content-box {
+  margin-top: 6rem;
+  gap: 40px;
+  flex-direction: row;
+  display: flex;
+}
+.container .content-box .item {
+  border: 1px solid black;
+  display: flex;
+  height: 18rem;
+  width: 20rem;
+  flex-direction: column;
+  gap: 4px;
+  box-shadow: 1px 1px 6px 5px gray;
+}
+.container .content-box .item2 {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  height: 18rem;
+  gap: 4px;
+  box-shadow: 1px 1px 6px 5px gray;
+}
+.container .content-box .item img {
+  height: 14rem;
+  width: 20rem;
+}
+.container .content-box .item2 img {
+  height: 14rem;
+  width: 20rem;
+}
+.container .tabs {
+  display: flex;
+  margin-top: 80px;
+  margin-left: 7rem;
+  flex-direction: row;
+  gap: 40px;
+}
+.container .tabs span {
+  border: 1px solid #5656e8;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+.container .tabs span:hover {
+  background-color: #5656e8;
+  color: white;
+}
